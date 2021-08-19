@@ -104,6 +104,10 @@ func main() {
 		PublishStatus: "draft",
 	}
 
+	if tags != "" {
+		post.Tags = strings.Split(tags, ",")
+	}
+
 	homeDir, err := os.UserHomeDir()
 	if err != nil {
 		log.Printf("Getting home dir resulted in error: %v\n", err)
