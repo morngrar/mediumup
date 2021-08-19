@@ -1,6 +1,6 @@
 # mediumup
 
-CLI-tool for linux that uploads a markdown document to medium as a draft.
+CLI-tool for linux that uploads a markdown document to [medium](https://medium.com/) as a draft.
 
 
 ## Installation
