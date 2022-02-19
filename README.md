@@ -12,7 +12,7 @@ Build, or download, the executable and place it somewhere within your $PATH
 Before the program can be used, you will have to generate an integration token from your medium settings page and have it handy for copy-pasting on the first time the program runs. **IMPORTANT:** the supplied token is saved in PLAIN TEXT within the config file under `~/.config/mediumup/config.json`.
 
 ```
-Usage: mediaup [OPTION]... TITLE FILE
+Usage: mediumup [OPTION]... TITLE FILE
 
 Available options:
   -t string
